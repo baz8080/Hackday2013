@@ -1,0 +1,37 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+        <!--
+            Use the android style as default. Have a look in styles.xml in the Android
+            source to see what you can override. The styles you should look for are
+            "Widget.AutoCompleteTextView" and its children. 
+        -->
+        <item name="autoCompleteTextViewStyle">@android:style/Widget.AutoCompleteTextView</item>
+        <item name="editTextStyle">@android:style/Widget.EditText</item>
+    </style>
+
+    <style name="blue_label" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/holo_blue_light</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="blue_separator">
+        <item name="android:background">@color/holo_blue_dark</item>
+        <item name="android:layout_marginBottom">8dip</item>
+        <item name="android:layout_marginTop">8dip</item>
+    </style>
+</resources>

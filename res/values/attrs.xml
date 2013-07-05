@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Styles for the Widgets -->
+    <attr name="autoCompleteTextViewStyle" format="reference" />
+    <attr name="editTextStyle" format="reference" />
+    
+    <!-- ValidatingEditText attrs -->
+    <declare-styleable name="ValidatingEditText">
+        <attr name="validationRegex" format="string" />
+        <attr name="validationError" format="reference" localisation="suggested"/>
+    </declare-styleable>
+    
+    <!-- PhoneNumberEditText attrs -->
+    <declare-styleable name="PhoneNumberEditText">
+        
+        <!-- 
+            The country code you are expecting numbers to be entered in.
+            http://en.wikipedia.org/wiki/ISO_3166-2 
+        -->
+        <attr name="countryCode" format="string" />
+    </declare-styleable>
+    
+</resources>

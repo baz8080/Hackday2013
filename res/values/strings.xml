@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hackday2013</string>
+
+    <string name="email_autocomplete_field_label">Email Autocomplete Field Demo</string>
+    <string name="validating_edittext_label">ValidatingEditText Demo</string>
+    <string name="phone_number_label">PhoneNumberEditText Demo</string>
+    
+    <string name="error_generic">Please enter a valid value</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_username">Please enter a username between four and eight characters long</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+
+</resources>
